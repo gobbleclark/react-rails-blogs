@@ -10,6 +10,7 @@ class Api::BlogsController < ApplicationController
             render json: blog
         else 
             render json: {}
+        end
     end
 
     private
